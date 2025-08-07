@@ -6,7 +6,7 @@ import { createClient } from "@supabase/supabase-js";
 
 const supabase = createClient(
   "https://lqycbpavzjljdqaeiioq.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." // dein Supabase Anon Key
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxxeWNicGF2empsamRxYWVpaW9xIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ0MjQ3MDcsImV4cCI6MjA3MDAwMDcwN30.Jb2Uwxl_Dd-3ZY0r2fN3DWDe1GSqzx7BbE7fugIx7DE" // dein Supabase Anon Key
 );
 
 export default function Kundenbereich() {
