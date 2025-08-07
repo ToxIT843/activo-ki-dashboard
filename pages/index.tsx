@@ -1,9 +1,5 @@
 export default function Home() {
-  return (
-    <div>
-      <h1>Willkommen im Activo-KI Dashboard</h1>
-    </div>
-  );
+  return <h1>Dashboard Startseite</h1>;
 }
 
 
